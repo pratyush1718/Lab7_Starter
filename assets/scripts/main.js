@@ -55,7 +55,7 @@ function initializeServiceWorker() {
         console.log('success!')
       })
       .catch(function(){
-        console.log('failure')
+        console.log('failure!')
       })
   // B4. TODO - Once the service worker has been successfully registered, console
   //            log that it was successful.
