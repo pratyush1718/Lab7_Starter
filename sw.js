@@ -63,10 +63,7 @@ self.addEventListener('fetch', function (event) {
         });
       })
 
-      }).catch((err) => {
-        console.log(err)
-        
-    })
+      })
   );
   // B8. TODO - If the request is in the cache, return with the cached version.
   // Otherwise fetch the resource, add it to the cache, and return network response.
